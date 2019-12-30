@@ -1,0 +1,161 @@
+body {
+    background-color: #e8ded9;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    
+}
+
+ul {
+    display: inline;
+    color: #5b8c6f;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: right;
+    font-weight: 300;
+    margin:0;
+  }
+
+
+ 
+
+button:hover {
+    background-color: #f7e966;
+    color: #61c386;
+}
+
+.header{
+    width:200px;
+    display: inline-block;
+}
+
+
+ 
+@media screen and (min-width: 768px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        float: right;
+    }
+}
+
+
+
+
+p {
+    color: #5b8c6f;
+    font-weight: 300;}
+
+h2 {
+    font-weight: 300;
+    margin: 0cm;
+    padding-left: 15px;
+
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.green {
+    color: #61c386;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #5b8c6f;
+    justify-content: space-around;
+    margin: 0 2px;
+    padding: 0 2px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #61c386;
+}
+
+#contact {
+    color: white;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    display: inline-flexbox;
+    flex-flow: row nowrap;
+    flex-direction: row-reverse;
+}
+
+.container {
+    width:50%;
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.text{
+    width:50%;
+    display: inline-block;
+}
+
+.image {
+    display:inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    max-height: initial;
+}
+
+#ft-nav-text {
+    color: white;
+}
+
+#ft-nav-text:hover {
+    color: #61c386;
+}
+
+button {
+    width: 100%;
+    background-color: #61c386;
+    color: white;
+    font-weight: 400;
+    font-size: initial;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  
+.text{
+      width:100%;
+  }
+
+ @media screen and (min-width: 768px) {
+     div.text {
+        padding: 12px;
+        border-radius: 10px;
+        width: auto;
+     }
+     button {
+         width: fit-content;
+     }
+ }
+
+
+@media screen and (min-width: 768px) {
+    div.image {
+        visibility: visible;
+        padding-left: 10px;
+    }
+}
+
+.image {
+    visibility: hidden;
+    display: inline-flex;
+    
+}
